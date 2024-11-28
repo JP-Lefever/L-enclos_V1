@@ -1,0 +1,47 @@
+section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.photo-description {
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+   
+    
+}
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;   
+}
+h1 {
+    font-weight: bold;
+    font-size: 4em;
+    width: 400px;
+    margin-left: 500px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+h2{
+    color: #7e96bb;
+    font-size:2em ;
+    width: 600px;
+    margin-left: 100px; 
+    margin-top: 160px;
+}
+.presentation {
+  width: 500px;
+  text-align: justify;
+}
+h3 {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+}

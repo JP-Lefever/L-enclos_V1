@@ -1,0 +1,75 @@
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+    width: 650px;
+    margin-left: 500px;
+    text-align: left;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+img {
+   width: 100%;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1200px;
+    margin: auto;
+    gap: 40px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+h2{
+    color: #7e96bb;
+    font-size:1.3em ;
+    line-height: 1.5em;
+}
+.second {
+    position: relative ;
+    top: 50px;
+}
+.bold {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.lien{
+    margin: 0;
+    padding: 0;
+   
+}
+.lien a {
+    color: black;
+    font-weight: bold;
+}
+.paragraphe2 {
+    width: 600px;
+    margin-left: 330px;
+    margin-top: 60px;
+
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 200px;
+}
+.pos2 {
+    position: relative;
+    top : 50px;
+}
+.pos3 {
+    position: relative;
+    top: 100px;
+    margin-bottom: 250px;
+}
+.paragraphe2 h2 {
+    font-size: 2.5em;
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+}

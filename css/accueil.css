@@ -1,0 +1,155 @@
+* :not(footer) {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-family: Arvo, serif;
+    
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 350px;
+    margin-right: 60px;
+    margin-top: 110px;
+    width: 700px;
+    padding-left: 0;
+    padding-right: 0;
+    
+    position: relative;
+    left: 210px;
+   
+}
+.survol1 {
+    position: relative;
+    bottom : 9px;
+    left: 160px;
+    margin: 0px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    font-weight: bold;
+   
+    width: 150px;
+}
+
+
+.menu_deroulant {
+    display: none;
+    box-shadow: 10px;
+    box-shadow: 0 0 0 0.3px black;
+    position: absolute;
+    top: 20px;
+    padding-right: 5px;
+    background-color: white;
+    width: 300px;
+    flex-wrap: nowrap;
+    z-index: 1;
+    margin-right: 0;
+   
+    
+}
+.survol {
+    margin: 0px;
+    margin-left: 60px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    font-weight: bold;
+  
+    width: 150px;
+    padding-left: 0;
+    padding-right: 0px;
+    position: inherit;
+    left: 60px;
+}
+.espace {
+    margin-bottom: 0px;
+}
+.survol:hover .menu_deroulant {
+    display: block;
+}
+nav {
+    display: flex;
+    background-color:  white;
+}
+.petite_bordure {
+    border-top: solid 3px black;
+    width: 120px;
+    margin: auto;
+}
+
+nav p{
+    padding: 15px;
+}
+nav a {
+    color : black;
+    text-decoration: none;
+}
+.logo_reduit {
+    width: 200px;
+    height: auto;
+}
+
+li {
+    list-style: none;
+    width: 300px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.fb_reduit{
+    width : 40px;
+    height: auto;
+    position: relative;
+    right: 20px;
+    filter: grayscale(100%);
+    
+}
+p {
+    line-height: 1.5em;
+    
+}
+.pied_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1400px;
+    margin: auto;
+    padding-top: 80px;
+}
+footer a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    width: 50px;
+    position: relative;
+    left: 270px;
+    bottom: 20px;
+}
+
+footer {
+    background-color: #F6F6F6;
+    padding-bottom: 40px;
+    background-position: center;
+    margin-right: 0;
+    
+}
+.compagnie_footer {
+    font-size: 2.5em;
+}
+.index2 {
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,31 @@
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+    width: 650px;
+    margin-left: 500px;
+    text-align: left;
+    margin-top: 80px;
+    
+}
+h2{
+    color: #7e96bb;
+    font-size:1.2em ;
+    line-height: 1.5em;
+    width: 400px;
+    margin: auto;
+   margin-top: 90px;
+   
+    
+}
+p{
+    font-size:1.2em ;
+    line-height: 1.5em;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+}

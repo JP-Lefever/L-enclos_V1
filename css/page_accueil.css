@@ -1,0 +1,70 @@
+h1 {
+    font-weight: bold;
+    font-size: 4em;
+    width: 400px;
+    margin-left: 500px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+h2{
+    color: #7e96bb;
+    font-size:2.5em ;
+    width: 600px;
+    margin : auto;
+    text-align: center;
+    border: #7e96bb solid;
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+h3{
+    color: black   ;
+    font-size:2em ;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.dates {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.dates li:hover{
+    text-decoration: none;
+}
+
+.place :hover {
+text-decoration: none;
+}
+.place {
+    width: 600px;
+    margin: auto;
+    font-size: 3em;
+    border: solid black;
+    text-align: center;
+    margin-bottom: 90px;
+    
+}
+.place a {
+    color: black;
+    text-decoration: none;
+}
+.place a:hover {
+    text-decoration: underline;
+    color: red;
+}
+section {
+    border: yellow;
+    background-color: lightyellow;
+    padding-bottom: 60px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 15px;
+}
